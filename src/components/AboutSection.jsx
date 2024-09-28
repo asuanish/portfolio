@@ -6,7 +6,7 @@ import {
   StyledAboutSection,
   StyledEmoji,
   StyledHeading,
-  StyledImage,
+  StyledImage
 } from "./styles/AboutSection.styled";
 
 export const AboutSection = () => {
@@ -14,7 +14,7 @@ export const AboutSection = () => {
     <>
       <StyledAboutSection id="about">
         <ImageContainer>
-          <StyledImage src="./images/profile-pic.png" alt="Anish Joglekar" />
+          <StyledImage src="./images/profile-pic.jpg" alt="Anish Joglekar" />
           <DarkCircle />
           <GradientCircle />
         </ImageContainer>

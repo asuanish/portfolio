@@ -11,7 +11,7 @@ import {
   NavLink,
   NavList,
   Profile,
-  SocialIcons,
+  SocialIcons
 } from "./styles/Nav.styled";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import useScrollDirection from "../hooks/useScrollDirection";
@@ -46,7 +46,7 @@ export const NavBar = () => {
                   <NavLink href="#hero-section">
                     <Profile>
                       <img
-                        src="./images/profile-pic.png"
+                        src="./images/profile-pic.jpg"
                         alt="Anish Joglekar"
                       />
                       <span>Anish Joglekar</span>
