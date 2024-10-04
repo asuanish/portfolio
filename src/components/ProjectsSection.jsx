@@ -8,7 +8,7 @@ import {
   SingleProject,
   SlantedCard,
   StyledProjectsSection,
-  Tags,
+  Tags
 } from "./styles/ProjectsSection.styled";
 
 export const ProjectsSection = () => {
@@ -17,7 +17,10 @@ export const ProjectsSection = () => {
       <StyledProjectsSection id="projects">
         <SectionHeading>
           <h1>Projects</h1>
-          <p>These are some of my best projects</p>
+          <p>
+            These are recent school projects I created showcasing my web
+            development skills.
+          </p>
         </SectionHeading>
         <div>
           {Projects &&

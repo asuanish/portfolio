@@ -1,0 +1,9 @@
+# Query: Get in touch
+# ContextLines: 1
+
+1 result - 1 file
+
+src/components/ContactSection.jsx:
+  15            <h1>Contact</h1>
+  16:           <p>Hit me up</p>
+  17          </SectionHeading>

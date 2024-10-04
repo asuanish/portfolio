@@ -4,7 +4,7 @@ import {
   ContactInfo,
   DetailsWrapper,
   ImageWrapper,
-  StyledContactSection,
+  StyledContactSection
 } from "./styles/ContactSection.styled";
 
 export const ContactSection = () => {
@@ -13,7 +13,7 @@ export const ContactSection = () => {
       <StyledContactSection id="contact">
         <SectionHeading>
           <h1>Contact</h1>
-          <p>Get in touch</p>
+          <p>Hit me up!</p>
         </SectionHeading>
         <DetailsWrapper>
           <ContactInfo>
