@@ -1,10 +1,10 @@
-import { FaBrain, FaCode, FaLaptopCode } from "react-icons/fa";
+import { FaPalette, FaUsers, FaMobileAlt } from "react-icons/fa";
 import { SectionHeading } from "./styles/SectionHeading.styled";
 import {
   IconWrapper,
   ServicesItems,
   SingleService,
-  StyledServicesSection,
+  StyledServicesSection
 } from "./styles/ServicesSection.styled";
 
 export const ServicesSection = () => {
@@ -18,31 +18,33 @@ export const ServicesSection = () => {
         <ServicesItems>
           <SingleService>
             <IconWrapper>
-              <FaCode />
+              <FaPalette />
             </IconWrapper>
-            <h1>Web Developement</h1>
+            <h1>UI/UX Design</h1>
             <p>
-              I develop full-blown web apps using HTML, CSS and JavaScript (MERN
-              Stack)
+              I create intuitive and visually appealing user interfaces that
+              prioritize user experience, accessibility, and design systems.
             </p>
           </SingleService>
           <SingleService>
             <IconWrapper>
-              <FaLaptopCode />
+              <FaUsers />
             </IconWrapper>
-            <h1>Design to HTML</h1>
+            <h1>User Research</h1>
             <p>
-              I convert existing designs into pixel-perfect HTML/CSS websites.
+              I conduct user research, create user personas, and analyze user
+              behavior to inform data-driven design decisions.
             </p>
           </SingleService>
           <SingleService>
             <IconWrapper>
-              <FaBrain />
+              <FaMobileAlt />
             </IconWrapper>
-            <h1>Mentorship</h1>
+            <h1>Prototyping & Wireframing</h1>
             <p>
-              You can book a session with me for mentorship or one-on-one
-              coding. $30/hr!
+              I design responsive prototypes and wireframes using Figma and
+              Adobe Creative Suite, ensuring seamless experiences across
+              devices.
             </p>
           </SingleService>
         </ServicesItems>

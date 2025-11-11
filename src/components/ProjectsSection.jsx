@@ -16,11 +16,8 @@ export const ProjectsSection = () => {
     <>
       <StyledProjectsSection id="projects">
         <SectionHeading>
-          <h1>Projects</h1>
-          <p>
-            These are recent school projects I created showcasing my web
-            development skills.
-          </p>
+          <h1>Design Projects</h1>
+          <p>User-centered designs that solve real problems</p>
         </SectionHeading>
         <div>
           {Projects &&

@@ -2,9 +2,9 @@ export const Projects = [
   {
     thumbnail: "./images/amigos_bakery.png",
     title: "Amigos Bakery",
-    tags: ["Javascript", "HTML", "CSS"],
+    tags: ["UI/UX Design", "User Research", "Responsive Design", "Figma"],
     paragraph:
-      "I developed this dynamic Mexican bakery website as my GIT 417 Advanced Web Markup and Scripting final project. From concept to execution, I designed and coded every aspect to deliver an engaging user experience. Key features include a theme switcher, a product picker for personalized orders, an intuitive contact form, and a fun interactive game for users.",
+      "Designed and developed a complete e-commerce experience for a Mexican bakery. Focused on creating an intuitive product browsing experience with a custom theme switcher for accessibility, an engaging product picker interface, and an interactive game to enhance user engagement. The design prioritizes ease of navigation and visual appeal to showcase bakery products effectively.",
     codelink: "https://github.com/asuanish/AmigosBakery",
     projectlink: "https://asuanish.github.io/AmigosBakery",
     projectlinkText: "View Project"
@@ -12,9 +12,9 @@ export const Projects = [
   {
     thumbnail: "./images/recipe.png",
     title: "Recipe",
-    tags: ["HTML", "CSS"],
+    tags: ["UI Design", "Content Strategy", "User Experience"],
     paragraph:
-      "This recipe website was made for the class GIT 337 Web Content Design. The street taco website combines integrated appealing visuals, concise descriptions, and user-friendly details like prep time and servings—highlighting the blend of content creation and web design central to the course.",
+      "Designed a clean and organized recipe application that prioritizes readability and user experience. Focused on creating an intuitive information architecture that makes recipe browsing and cooking instructions easy to follow, with careful attention to typography and visual hierarchy.",
     codelink: "https://github.com/asuanish/recipe",
     projectlink: "https://asuanish.github.io/recipe",
     projectlinkText: "View Project"
@@ -22,9 +22,9 @@ export const Projects = [
   {
     thumbnail: "./images/muzakmaker.png",
     title: "Muzak Maker",
-    tags: ["HTML", "CSS"],
+    tags: ["Mobile-First Design", "Responsive UI", "UX Design", "Prototyping"],
     paragraph:
-      "Another project from GIT 337 with more advanced features like in-browser music controls, responsive design, and unique scrolling layouts.",
+      "Designed a fully responsive media streaming platform with a mobile-first approach. Created an intuitive navigation system featuring a hamburger menu optimized for mobile devices, ensuring seamless user experience across all screen sizes. The design emphasizes content discoverability and smooth interaction patterns.",
     codelink: "https://github.com/asuanish/streamingmedia",
     projectlink: "https://asuanish.github.io/streamingmedia",
     projectlinkText: "View Project"

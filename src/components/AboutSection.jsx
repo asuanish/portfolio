@@ -24,10 +24,13 @@ export const AboutSection = () => {
           </StyledHeading>
           <p>My name is Anish Joglekar.</p>
           <p>
-            I was born in the bay area and moved to Arizona to attend Arizona
-            State University. I am currently a senior at ASU and will receive my
-            degree in Graphic Information Technology Full-Stack Web Development
-            in early 2025.
+            I'm <strong>Anish Joglekar</strong>, a passionate{" "}
+            <strong>Product Designer</strong> dedicated to creating
+            user-creating user-centered digital experiences that solve real
+            problems. I recently graduated from{" "}
+            <strong>Arizona State University</strong> with a degree in Graphic
+            Information Technology, where I developed a strong foundation in
+            design principles, user research, and interactive design.
           </p>
           <p>
             I'm excited about the future of web development and the endless

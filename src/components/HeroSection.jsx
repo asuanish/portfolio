@@ -4,7 +4,7 @@ import {
   HeroSocialIcons,
   StyledArrowDown,
   StyledHeroSection,
-  SocialIcon,
+  SocialIcon
 } from "./styles/HeroSection.styled";
 import { FaArrowDown, FaGithub, FaLinkedin } from "react-icons/fa";
 
@@ -13,8 +13,8 @@ export const HeroSection = () => {
     <StyledHeroSection id="hero-section">
       <HeroContent>
         <h1>Anish Joglekar</h1>
-        <h3>{"{Front-End Developer}"}</h3>
-        <p>JavaScript . HTML . CSS </p>
+        <h3>{"{Product Designer}"}</h3>
+        <p>User Research . UI/UX Design . Prototyping </p>
         <div>
           <CTAButton href="#projects">Projects</CTAButton>
           <CTAButton href="#contact" primary margin="0 0 0 20px">
