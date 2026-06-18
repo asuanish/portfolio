@@ -51,14 +51,15 @@ export const StyledAboutSection = styled.section`
 `;
 
 export const ImageContainer = styled.div`
-  height: 16rem;
-  width: 16rem;
+  height: 18rem;
+  width: 13rem;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-right: 2.5rem;
   position: relative;
+  flex-shrink: 0;
 
   @media (max-width: ${({ theme }) => theme.mobile}) {
     margin-bottom: 4rem;
@@ -66,18 +67,26 @@ export const ImageContainer = styled.div`
 `;
 
 export const StyledImage = styled.img`
-  height: 15rem;
-  width: 15rem;
+  height: 17rem;
+  width: 12rem;
   border-radius: 50%;
+  object-fit: cover;
+  object-position: center center;
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: 4;
 `;
 
 export const DarkCircle = styled.div`
-  height: 12.5rem;
-  width: 12.5rem;
+  height: 14rem;
+  width: 10rem;
   border-radius: 50%;
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: 3;
   background: ${({ theme }) => theme.colors.navyBlue};
 `;

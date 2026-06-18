@@ -160,9 +160,11 @@ export const Profile = styled.div`
     align-items: center;
 
     img {
-      height: 9rem;
-      width: auto;
+      height: 8.5rem;
+      width: 6.5rem;
       border-radius: 50%;
+      object-fit: cover;
+      object-position: center center;
       display: block;
       margin: 1.5rem 0;
     }
